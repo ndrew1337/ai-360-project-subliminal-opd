@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you find our approach interesting for your own work, please cite it as below."
+authors:
+  - family-names: Schrodi
+    given-names: Simon
+  - family-names: Kempf
+    given-names: Elias
+  - family-names: Barez
+    given-names: Fazl
+  - family-names: Brox
+    given-names: Thomas
+title: "Towards Understanding Subliminal Learning: When and How Hidden Biases Transfer"
+version: 0.1.0
+url: "github.com/lmb-freiburg/divergence-tokens"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: Schrodi
+    given-names: Simon
+  - family-names: Kempf
+    given-names: Elias
+  - family-names: Barez
+    given-names: Fazl
+  - family-names: Brox
+    given-names: Thomas
+  url: "https://openreview.net/forum?id=IelhmYSjPt"
+  collection-title: "The Fourteenth International Conference on Learning Representations"
+  title: "Towards Understanding Subliminal Learning: When and How Hidden Biases Transfer"
+  year: 2026

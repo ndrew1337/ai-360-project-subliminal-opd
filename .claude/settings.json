@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(mls job killall*)"
+    ],
+    "ask": [
+      "Bash(rm -r*)",
+      "Bash(rm -f*)",
+      "Bash(rm --recursive*)",
+      "Bash(rm --force*)",
+      "Bash(mls job kill *)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean*)",
+      "Bash(scp *)",
+      "Bash(rsync *)",
+      "Bash(killall*)",
+      "Bash(pkill*)",
+      "Write(.env)",
+      "Edit(.env)",
+      "Bash(cp /Users/andrew/subliminal-opd-buggy-archived/*)",
+      "Bash(rsync /Users/andrew/subliminal-opd-buggy-archived/*)"
+    ]
+  }
+}

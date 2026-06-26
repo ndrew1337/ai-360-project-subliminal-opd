@@ -1,0 +1,12 @@
+job:
+  description: "datagen fresh owl+control #gritsaev #subliminal #matrix"
+  environment:
+    image: cr.ai.cloud.ru/aicloud-base-images/cuda12.1-torch2-py311:0.0.36
+    variables:
+      N_SAMPLES: "30000"
+      STRATEGY: "default"
+  resource:
+    instance_type: a100.1gpu
+    processes: 1
+  script: 'bash /workspace-SR004.nfs2/gritsaev/subliminal-opd2/jobs/datagen.sh'
+  type: binary

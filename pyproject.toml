@@ -1,0 +1,26 @@
+[project]
+name = "matrix"
+version = "0.1.0"
+description = "Distillation-mode matrix engine for the subliminal-learning study (gemma-3-4b-it)"
+requires-python = ">=3.11"
+dependencies = [
+    "transformers==4.54.0",
+    "trl==0.19.1",
+    "accelerate==1.9.0",
+    "peft",
+    "datasets",
+    "torch",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["matrix"]
+
+[tool.ruff]
+line-length = 120

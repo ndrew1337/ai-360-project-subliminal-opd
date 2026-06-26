@@ -1,0 +1,16 @@
+*.bin
+*.egg-info/
+*.pt
+*.pyc
+*.safetensors
+.DS_Store
+.env
+.pytest_cache/
+.venv/
+__pycache__/
+jobs/generated/
+papers/
+runs-olddata/
+runs/
+wandb/
+workspace/
